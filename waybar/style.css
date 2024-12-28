@@ -1,11 +1,17 @@
+
+@import '../../.cache/wal/colors-waybar.css';
+
+@define-color bg @background;
+@define-color fg @foreground;
+@define-color textcolor @cursor;
+
 * {
     font-family: FontAwesome, Roboto, Helvetica, Arial, sans-serif;
     font-size: 13px;
 }
 
 #waybar {
-    background-color: #333333;
-    color: #ffffff;
+    background-color: @bg;
 }
 
 button {
